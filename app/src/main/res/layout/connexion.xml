@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#212121">
@@ -36,15 +37,15 @@
 
 </LinearLayout>
 
-<com.google.android.material.button.MaterialButton
-    android:layout_width="200dp"
-    android:layout_height="50dp"
-    android:gravity="center"
-    android:layout_centerHorizontal="true"
-    android:text="Se connecter"
-    android:id="@+id/login"
-    android:layout_marginTop="180dp">
-</com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="Se connecter"
+        app:cornerRadius="50px"></com.google.android.material.button.MaterialButton>
 
 <TextView
     android:layout_width="match_parent"
@@ -53,7 +54,7 @@
 veuillez contacter l'accueil de l'établissement pour en obtenir un nouveau."
     android:textColor="#858585"
     android:textSize="15dp"
-    android:layout_marginTop="540dp"
+    android:layout_marginTop="500dp"
     android:gravity="center">
 </TextView>
 
